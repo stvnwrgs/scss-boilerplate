@@ -1,0 +1,85 @@
+/*
+*   This Grid system is following to use:
+*   
+*   edit your grid width and space width with your size
+*   
+*   use the following classes:
+*       "grid_$size" for a grid
+*       "no-pre-space" to delete the prefix space of the first grid_column
+*       "nosuff-space" to delete the suffix space of the last grid column
+*       "prefix_$size" to add a left padding before your grid
+*       "suffix_$size" to add a right padding after your grid
+*/
+
+
+$grid_width:66px;
+$grid_space: 16px;
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+	display: inline; float: left; position: relative; margin-left: $grid_space ; margin-right: $grid_space ;
+}
+
+.grid_1 { width: ($grid_space + $grid_width ); }
+.grid_2 { width: ($grid_space + $grid_width ) * 2; }
+.grid_3 { width: ($grid_space + $grid_width ) * 3; }
+.grid_4 { width: ($grid_space + $grid_width ) * 4; }
+.grid_5 { width: ($grid_space + $grid_width ) * 5; }
+.grid_6 { width: ($grid_space + $grid_width ) * 6; }
+.grid_7 { width: ($grid_space + $grid_width ) * 7; }
+.grid_8 { width: ($grid_space + $grid_width ) * 8; }
+.grid_9 { width: ($grid_space + $grid_width ) * 9; }
+.grid_10 { width: ($grid_space + $grid_width ) * 10; }
+.grid_11 { width: ($grid_space + $grid_width ) * 11; }
+.grid_12 { width: ($grid_space + $grid_width ) * 12; }
+.grid_13 { width: ($grid_space + $grid_width ) * 13; }
+.grid_14 { width: ($grid_space + $grid_width ) * 14; }
+.grid_15 { width: ($grid_space + $grid_width ) * 15; }
+.grid_16 { width: ($grid_space + $grid_width ) * 16; }
+.grid_17 { width: ($grid_space + $grid_width ) * 17; }
+.grid_18 { width: ($grid_space + $grid_width ) * 18; }
+.grid_19 { width: ($grid_space + $grid_width ) * 19; }
+.grid_20 { width: ($grid_space + $grid_width ) * 20; }
+
+
+.no-pre-space {margin-left: 0px ;}
+.no-suff-space {margin-right: 0px ;}
+
+.prefix_1 { padding-left: ($grid_space + $grid_width ) + $grid-space  ;}
+.prefix_2 { padding-left: ($grid_space + $grid_width * 2 ) +  $grid-space ;}
+.prefix_3 { padding-left: ($grid_space + $grid_width * 3 ) +  $grid-space ;}
+.prefix_4 { padding-left: ($grid_space + $grid_width * 4 ) +  $grid-space ;}
+.prefix_5 { padding-left: ($grid_space + $grid_width * 5 ) +  $grid-space ;}
+.prefix_6 { padding-left: ($grid_space + $grid_width * 6 ) +  $grid-space ;}
+.prefix_7 { padding-left: ($grid_space + $grid_width * 7 ) +  $grid-space ;}
+.prefix_8 { padding-left: ($grid_space + $grid_width * 8 ) +  $grid-space ;}
+.prefix_9 { padding-left: ($grid_space + $grid_width * 9 ) +  $grid-space ;}
+.prefix_10 { padding-left: ($grid_space + $grid_width * 10 ) +  $grid-space ;}
+.prefix_11 { padding-left: ($grid_space + $grid_width * 11 ) +  $grid-space ;}
+.prefix_12 { padding-left: ($grid_space + $grid_width * 12 ) +  $grid-space ;}
+.prefix_13 { padding-left: ($grid_space + $grid_width * 13 ) +  $grid-space ;}
+.prefix_14 { padding-left: ($grid_space + $grid_width * 14 ) +  $grid-space ;}
+.prefix_15 { padding-left: ($grid_space + $grid_width * 15 ) +  $grid-space ;}
+.prefix_16 { padding-left: ($grid_space + $grid_width * 16 ) +  $grid-space ;}
+.prefix_17 { padding-left: ($grid_space + $grid_width * 17 ) +  $grid-space ;}
+.prefix_18 { padding-left: ($grid_space + $grid_width * 18 ) +  $grid-space ;}
+.prefix_19 { padding-left: ($grid_space + $grid_width * 19 ) +  $grid-space ;}
+
+.suffix_1 { padding-right: ($grid_space + $grid_width ) +  $grid-space ;}
+.suffix_2 { padding-right: ($grid_space + $grid_width * 2 ) +  $grid-space ;}
+.suffix_3 { padding-right: ($grid_space + $grid_width * 3 ) +  $grid-space ;}
+.suffix_4 { padding-right: ($grid_space + $grid_width * 4 ) +  $grid-space ;}
+.suffix_5 { padding-right: ($grid_space + $grid_width * 5 ) +  $grid-space ;}
+.suffix_6 { padding-right: ($grid_space + $grid_width * 6 ) +  $grid-space ;}
+.suffix_7 { padding-right: ($grid_space + $grid_width * 7 ) +  $grid-space ;}
+.suffix_8 { padding-right: ($grid_space + $grid_width * 8 ) +  $grid-space ;}
+.suffix_9 { padding-right: ($grid_space + $grid_width * 9 ) +  $grid-space ;}
+.suffix_10 { padding-right: ($grid_space + $grid_width * 10 ) +  $grid-space ;}
+.suffix_11 { padding-right: ($grid_space + $grid_width * 11 ) +  $grid-space ;}
+.suffix_12 { padding-right: ($grid_space + $grid_width * 12 ) +  $grid-space ;}
+.suffix_13 { padding-right: ($grid_space + $grid_width * 13 ) +  $grid-space ;}
+.suffix_14 { padding-right: ($grid_space + $grid_width * 14 ) +  $grid-space ;}
+.suffix_15 { padding-right: ($grid_space + $grid_width * 15 ) +  $grid-space ;}
+.suffix_16 { padding-right: ($grid_space + $grid_width * 16 ) +  $grid-space ;}
+.suffix_17 { padding-right: ($grid_space + $grid_width * 17 ) +  $grid-space ;}
+.suffix_18 { padding-right: ($grid_space + $grid_width * 18 ) +  $grid-space ;}
+.suffix_19 { padding-right: ($grid_space + $grid_width * 19 ) +  $grid-space ;}
